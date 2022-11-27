@@ -1,0 +1,680 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap');
+*{
+	font-family: "Montserrat";
+}
+.cuerpo-about{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+p{
+	text-align: left;
+}
+
+section{
+	position: relative;
+}
+h1{
+	font-size: 40px;
+}
+
+h2{
+	margin: 0;
+	color: #009849;
+}
+
+h1{
+	line-height:0;
+	text-align: center;
+	color: #009849;
+}
+
+h3, h5{
+	color: #009849;
+}
+
+h3{
+	font-size: 23px;
+}
+
+li{
+	margin: 5px;
+}
+
+a{
+	text-decoration: none;
+}
+
+span{
+	color: #ffffff;
+}
+
+div{
+	margin: 0px;
+	padding: 0px;
+}
+
+footer p{
+	text-align: center;
+}
+
+section .estandar{
+    height: 200px;
+    width: 100%;
+    background-image: url("../img/page-title.jpg");
+}
+
+footer {
+	background: #edf7f4;
+	border-top: 1px solid #0c4c40;
+}
+
+footer img{
+	width: 80px;
+	height: 80px;
+}
+
+.pie-de-pagina-seccion{
+	margin-left: 500px;
+	display: flex;
+}
+
+.formulario-titulo{
+	font-size: 30px;
+	color: #009849;
+}
+
+.sub-titulo{
+	color: black;
+	line-height:0;
+	font-size: 18px;
+	text-align: center;
+}
+
+.imag-bord{
+	border-radius: 45px;
+	width: 450px;
+    height: 350px;
+    margin: 10px;
+    border-style: solid;
+}
+
+.picture-logo{
+	display: block;
+	margin: auto;
+	margin-bottom: 15px;
+	width: 50px;
+	align-content: center;
+}
+
+.space-border{
+	width: 100%;
+	height: 100px;
+	border: 2px;
+	padding: 10px;
+}
+
+.space-border,.space-border2{
+	background-image: url("../img/page-title.jpg");
+	border-radius: 15px ;
+}
+
+.bottom-header{	
+	background: #626567;
+}
+
+.space-border2 nav ul {
+	list-style: none;
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+}
+
+.space-border2 nav li a{
+	text-decoration: none;
+	padding: 12px 30px;
+	color: #ffffff;
+	border-radius: 8px;
+}
+
+.space-border2 nav li a:hover{
+	background: green;
+	font-size: ;
+}
+
+.titulo-1{
+	line-height:0;
+	text-align: center;
+}
+
+.titulo-2{
+	font-family: "Montserrat";
+	color: #009849;
+	font-size: 32px !important;
+	text-align: left;
+}
+
+.titulo-3{
+	color: #ffffff;
+	font-family: "Montserrat";
+}
+
+.parrafo{
+	text-align: left;
+}
+
+div .size-complete div p strong{
+	color: #009849;
+}
+
+.zone-socialmedia{
+	margin: 10px;
+	margin-bottom: 45px;
+	margin-top: 50px;
+}
+
+.area-socialmedia{
+	display: block;
+	position: relative;
+	margin: 0px;
+	width: 100px;
+}
+
+.principal-size{
+	margin: 40px;
+	margin-right: 80px;
+}
+
+.img-social-red{
+	width: 30px;
+	position: relative;
+	margin: 5px;
+	padding: 0px;
+}
+
+.socilmedia{
+	margin: 0px;
+	padding: 0px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: #1F302A;
+	border-radius: 100px;
+}
+
+.about-email{
+	font-family: "Poppins", Sans-serif;
+	color: black;
+	display: block;
+}
+
+.stylebox-list{
+	border-radius: 15px;
+	background: #1F302A;
+	width: 550px;
+	height: 320px;
+	margin-left: 10px;
+}
+
+.style-titulo-stylebox{
+	margin: 0px 0px 0px 27px;
+	color: #ffffff;
+	padding: 38px 20px 11px 0px;
+	display: table;
+}
+
+.help-stylebox{
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.general-inferior{
+	display: ;
+	width: 570px;
+	height: 540px;
+}
+
+.general{
+	display: inline-flex;
+	margin: 80px 80px 0px 180px;
+	padding: 0px;
+}
+
+.organizado-text{
+	color: #ffffff;
+	text-align: center;
+	margin: 40px 80px;
+}
+
+div.position-text{
+	position: relative;
+	margin-top: 40px;
+	padding: 25px;
+	background-image: url("../img/page-title.jpg");
+}
+
+.picture-small{
+	width: 40px;
+	height: 40px;
+}
+
+.size-complete{
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+.area-small{
+	margin: 15px;
+	padding-top: 13px;
+}
+
+.stylebox-list ul {
+  list-style: none;
+}
+
+.stylebox-list ul li:before {
+  content: url('../img/check.svg');
+  margin: 10px 10px 10px 10px;
+}
+.list{
+	display: flex;
+}
+
+.picture-email{
+	width: 20px;
+	display: block;
+	margin-right: 15px;
+	padding: 0px;
+}
+
+.media-email{
+	display: flex;
+}
+
+.enlace-email{
+	display: flex;
+	align-items: center;
+}
+.enlace-email:hover span{
+	color: #009849;
+}
+
+.enlace-email:hover img{
+	content: url('../img/email-hover.png');
+}
+
+.todo-online-shoop{
+	text-align: center;
+}
+
+section .estandar{
+    height: 200px;
+    width: 100%;
+    background-image: url("../img/page-title.jpg");
+}
+.welcome{
+	margin: 25px;
+	color: white;
+}
+
+.prices-container {
+    display: inline-block;
+    width: 350px;
+    height: 140px;
+    border-radius: 45px;
+    margin: 50px;
+}
+
+.prices-container img {
+    border-radius: 45px;
+    object-position: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.bord{
+	border-radius: 45px;
+	width: 450px;
+    height: 350px;
+    margin: 10px;
+}
+
+div.hero{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 2px ;
+    border-radius:0 0 0 50px;
+    background-image: url("https://www.bestfoods.com/content/dam/unilever/hellmann_s_world/global/digital_and_online/wrap_lp-63808006-jpg.jpg");
+}
+
+.space-border{
+	width: 100%;
+	height: 100px;
+	border: 2px;
+	padding: 10px;
+}
+
+.space-border,.space-border2{
+	background-image: url("../img/page-title.jpg");
+	border-radius: 15px ;
+}
+.space-border2 nav ul {
+	list-style: none;
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+}
+
+.space-border2 nav li a{
+	text-decoration: none;
+	padding: 12px 30px;
+	color: #ffffff;
+	border-radius: 8px;
+}
+
+.space-border2 nav li a:hover{
+	background: green;
+	font-size: ;
+}
+.bottom-header{	
+	background: #626567;
+}
+
+.h-border-space{
+	margin-top: 20px;
+	border-top: 1px ;
+}
+
+.head-border-space{
+	margin-bottom: 15px;
+	border-bottom: 1px ;
+}
+
+.pull{
+	border-radius: 25px;
+	border: none;
+	background: #009849;
+	color: white;
+	position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: -60px;
+    width: 200px;
+    padding: 10px;
+}
+
+.pull:hover{
+	background: #1B5E20;
+}
+
+.pull-secon{
+	border-radius: 25px;
+	border: none;
+	background: #009849;
+	color: white;
+	position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.pull-secon:hover{
+	background: #1B5E20;
+}
+
+.products-container{
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+#imag-principal{
+	display: block;
+}
+form{
+	background: #F3F3F3;
+}
+	form input[type="text"]{
+		margin: 0px;
+		padding: 10px;
+		width: 400px;
+	}
+
+	form input[type="number"]{
+		margin: 0px;
+		padding: 10px;
+		width: 400px;
+	}
+
+	form input[type="email"]{
+		margin: 0px;
+		padding: 10px;
+		width: 400px;
+	}
+
+	form div {
+		display: block;
+		width: fit-content;
+		margin: auto;
+	}
+
+	form textarea{
+		width: 420px;
+		height: 150px;
+		display: block;
+		margin: 0px 0;
+	}
+	form select{
+		width: 420px;
+		height: 40px;
+	}
+
+	form p{
+		display: block;
+		margin: 0px;
+	}
+.orden-now{
+    text-decoration: none;
+    color: initial;
+}
+
+.imagen-food{
+	width: 180px;
+	height: 160px;
+	border-radius: 45px;
+	display: block;
+	margin: auto;
+    object-position: center;
+    object-fit: cover;
+}
+
+.products-container-2{
+    display: inline-block;
+    margin: 35px;
+    margin-bottom: 40px;
+}
+
+.food-text{
+	text-align: left;
+	color: #0E6655;
+	margin-top: 10px ;
+	display: inline-block;
+}
+
+.enlace-buy{
+	display: flex;
+	align-items: center;
+}
+
+.about-buy{
+	font-family: "Poppins", Sans-serif;
+	color: white;
+	display: block;
+}
+
+.media-buy-now:hover {
+    transition: all 0.2s linear;
+    transform: scale(1.1);
+    background: #02602f;
+}
+
+.picture-buy-now{
+	width: 20px;
+	display: block;
+	margin-right: 15px;
+	padding: 0px;
+}
+
+.media-buy-now{
+	display: flex;
+	background: #009849;
+	border-radius: 25px;
+    width: 150px;
+    padding: 20px 40px;
+}
+
+.color-conter-buy-now{
+    background: #d3e7d4;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.price-buy-now{
+	background: #0E6655;
+	border-radius: 25px;
+	height: 100px;
+	color: #ffffff;
+	margin: 10px;
+	padding: 10px 20px;
+}
+.container-price-buy-now{
+	border-top: 1px solid #0E6655;
+	text-align: center;
+	margin-bottom: 45px;
+	padding-top: 10px;
+}
+
+.tachado-price{
+	color: #7e7c7c;
+	background: #ffffff;
+	border-radius: 25px;
+	text-decoration: line-through;
+	margin: 10px;
+	padding: 10px 20px;
+}
+
+.seccion-aliniada{
+	margin-left: 100px;
+}
+
+.seccion-flexiada{
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.canvas-picture-food{
+	background-image: url("../img/eat-in-italy.png");
+	border-radius: 5px;
+	width: 900px;
+	height: 300px;
+}
+
+.name-food{
+	font-size: 30px;
+	font-family: "Helvetica";
+	color: #0B5345;
+	margin-top: 10px;
+	margin-right: 590px;
+}
+
+.clasificacion{
+	color: #0c4c40;
+	background: #c7e9d5;
+	border-radius: 25px;
+	padding: 5px;
+}
+
+.tag-complete{
+	display: flex;
+}
+
+.clasificacion-tag{
+	width: 30px;
+	height: 30px;
+	margin: 0px;
+	margin: 20px;
+}
+
+.tag-size{
+	width: 30px;
+	height: 30px;
+	margin: 0px;
+	display: block;
+}
+
+.tag-complete{
+	display: flex;
+}
+
+.descripcion{
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+.tag-block{
+	display: flex;
+	margin: 0px;
+}
+
+div .descripcion{
+	margin: auto;
+}
+
+.margen-de-abajo{
+	margin-bottom: 30px;
+}
+
+.centro-descripcion{
+	margin-top: 5px;
+}
+
+.primer-titulo-bloque2 .segundo-titulo-bloque2{
+	text-align: center;
+}
+
+.primer-titulo-bloque2{
+	color: #009849;
+	margin: 0px;
+}
+
+.segundo-titulo-bloque2{
+	color: #0B5345;
+	line-height:0;
+	font-size: 18px;
+}
+
+.fondo-back{
+	background: #8bd0d52e;
+	padding: 10px;
+	display: block;
+	border-radius: 10px;
+	margin-left: 10px ;
+}
+
+.imagen-restaurante{
+	width: 400px;
+	height: 200px;
+}
+
+.detalles-descripcion{
+	margin: 0px;
+	margin-top: 10px;
+}
